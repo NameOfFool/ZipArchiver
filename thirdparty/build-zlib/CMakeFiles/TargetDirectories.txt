@@ -1,0 +1,8 @@
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/zlib.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/zlibstatic.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/example.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/minigzip.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/RUN_TESTS.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/INSTALL.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/ZERO_CHECK.dir

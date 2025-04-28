@@ -1,0 +1,10 @@
+^C:\USERS\IVAN\PROJECTS\CMAKESETUP\THIRDPARTY\ZLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ivan/Projects/cmakeSetup/thirdparty/zlib -BC:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib --check-stamp-file C:/Users/Ivan/Projects/cmakeSetup/thirdparty/build-zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
