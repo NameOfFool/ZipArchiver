@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/cmake_install.cmake",
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/lib/cmake_install.cmake",
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/man/cmake_install.cmake",
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/src/cmake_install.cmake",
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/ossfuzz/cmake_install.cmake",
+		"C:/Lab/ZipArchiver/thirdparty/build-libzip/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

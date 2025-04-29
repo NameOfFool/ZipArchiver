@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\ZIP_SOURCE_GET_ARGS.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\libzip.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_add.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_add_dir.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_close.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_compression_method_supported.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_delete.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_dir_add.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_discard.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_encryption_method_supported.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_clear.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_code_system.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_code_zip.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_fini.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_get.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_get_sys_type.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_init.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_set.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_set_from_source.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_strerror.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_system_type.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_to_data.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_error_to_str.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_errors.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fclose.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fdopen.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_add.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_attributes_init.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_extra_field_delete.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_extra_field_get.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_extra_field_set.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_extra_fields_count.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_get_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_get_error.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_get_external_attributes.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_rename.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_set_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_set_encryption.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_set_external_attributes.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_set_mtime.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_file_strerror.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fopen.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fopen_encrypted.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fread.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_fseek.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_ftell.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_archive_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_archive_flag.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_error.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_file_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_name.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_num_entries.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_get_num_files.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_libzip_version.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_name_locate.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_open.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_register_cancel_callback_with_state.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_register_progress_callback.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_register_progress_callback_with_state.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_rename.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_set_archive_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_set_archive_flag.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_set_default_password.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_set_file_comment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_set_file_compression.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_begin_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_buffer.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_buffer_fragment.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_close.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_commit_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_error.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_file.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_filep.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_free.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_function.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_is_deleted.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_is_seekable.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_keep.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_layered.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_make_command_bitmap.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_open.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_read.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_rollback_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_seek.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_seek_compute_offset.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_seek_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_stat.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_tell.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_tell_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_win32a.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_win32handle.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_win32w.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_window_create.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_write.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_zip.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_source_zip_file.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_stat.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_stat_init.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_unchange.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_unchange_all.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zip_unchange_archive.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zipcmp.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\zipmerge.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\9f80d1a9535773b826ecf71e9745be1f\ziptool.man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\CMakeFiles\7b40b324eb700d3bf8ceb405443bb2d4\update-man.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Lab\ZipArchiver\thirdparty\libzip\man\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Lab\ZipArchiver\thirdparty\build-libzip\man\CMakeFiles\update-man" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD8968AD-E35D-345E-BE8D-94621EA8E2D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Lab/ZipArchiver/thirdparty/build-zlib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

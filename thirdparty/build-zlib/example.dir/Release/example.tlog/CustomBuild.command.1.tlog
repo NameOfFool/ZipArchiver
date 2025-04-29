@@ -1,0 +1,10 @@
+^C:\LAB\ZIPARCHIVER\THIRDPARTY\ZLIB-1.3.1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Lab/ZipArchiver/thirdparty/zlib-1.3.1 -BC:/Lab/ZipArchiver/thirdparty/build-zlib --check-stamp-file C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

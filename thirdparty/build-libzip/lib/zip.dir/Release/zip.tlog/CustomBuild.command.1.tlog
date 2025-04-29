@@ -1,0 +1,20 @@
+^C:\LAB\ZIPARCHIVER\THIRDPARTY\BUILD-LIBZIP\CMAKEFILES\FB7390A3D9E42DA993E10AE21A5513C4\ZIP_ERR_STR.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DPROJECT_SOURCE_DIR=C:/Lab/ZipArchiver/thirdparty/libzip -DCMAKE_CURRENT_BINARY_DIR=C:/Lab/ZipArchiver/thirdparty/build-libzip/lib -P C:/Lab/ZipArchiver/thirdparty/libzip/cmake/GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LAB\ZIPARCHIVER\THIRDPARTY\LIBZIP\LIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Lab/ZipArchiver/thirdparty/libzip -BC:/Lab/ZipArchiver/thirdparty/build-libzip --check-stamp-file C:/Lab/ZipArchiver/thirdparty/build-libzip/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

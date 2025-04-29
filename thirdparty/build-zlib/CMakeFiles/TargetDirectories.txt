@@ -1,0 +1,8 @@
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/zlib.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/zlibstatic.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/example.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/minigzip.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/RUN_TESTS.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/INSTALL.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/ALL_BUILD.dir
+C:/Lab/ZipArchiver/thirdparty/build-zlib/CMakeFiles/ZERO_CHECK.dir
