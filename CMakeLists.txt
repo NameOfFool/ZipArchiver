@@ -13,11 +13,11 @@ set(ENABLE_GNUTLS OFF)
 add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
 add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 set(ENABLE_MBEDTLS OFF)  
-set(ZLIB_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/zlib/build/install")
+set(ZLIB_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/zlib-install")
 
 
 find_library(ZLIB_LIBRARY
-    NAMES zlibstatic
+    NAMES z zlib zlibstatic libz
     PATHS "${ZLIB_ROOT}/lib"
     REQUIRED
 )
@@ -36,6 +36,6 @@ add_executable("${CMAKE_PROJECT_NAME}"
 )
 
 
-target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE "${ZLIB_ROOT}/lib/zlibstatic.lib" libzip::zip)
+target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE "${ZLIB_LIBRARY}" libzip::zip)
 
 
