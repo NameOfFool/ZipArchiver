@@ -13,12 +13,8 @@ set(ZLIB_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/zlib-install")
 set(LIBZIP_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/libzip-install")
 add_library(zip SHARED IMPORTED)
 
-set_target_properties(zip PROPERTIES
-    IMPORTED_LOCATION "${LIBZIP_ROOT}/bin/zip.dll" 
-    IMPORTED_IMPLIB "${LIBZIP_ROOT}/lib/zip.lib"
-)
 if(WIN32)
-    set(ZLIB_LIBRARY "${ZLIB_ROOT}/lib/windows/zlibstatic.lib")
+set(ZLIB_LIBRARY "${ZLIB_ROOT}/lib/windows/zlibstatic.lib")
 set_target_properties(zip PROPERTIES
     IMPORTED_LOCATION "${LIBZIP_ROOT}/bin/zip.dll" 
     IMPORTED_IMPLIB "${LIBZIP_ROOT}/lib/zip.lib"
@@ -27,7 +23,8 @@ elseif(UNIX)
     set(ZLIB_LIBRARY "${ZLIB_ROOT}/lib/linux/libz.a")
     set_target_properties(zip PROPERTIES
 
-    IMPORTED_IMPLIB "${LIBZIP_ROOT}/lib/zip.a"
+    IMPORTED_IMPLIB "${LIBZIP_ROOT}/lib/libzip.a"
+    IMPORTED_LOCATION "${LIBZIP_ROOT}/lib/libzip.so" 
 ) 
 endif()
 
