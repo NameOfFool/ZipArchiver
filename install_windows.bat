@@ -14,6 +14,7 @@ if exist %INSTALL_DIR% rmdir /s /q %INSTALL_DIR%
 
 
 mkdir %BUILD_DIR%
+mkdir %INSTALL_DIR%
 cd %BUILD_DIR%
 
 
