@@ -1,6 +1,7 @@
 #include <filesystem>
 #include <zip.h>
 #include <thread>
+#include <atomic>
 
 extern std::atomic<bool> interrupt_flag;
 

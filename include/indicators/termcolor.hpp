@@ -14,6 +14,7 @@
 
 #include <iostream>
 #include <cstdio>
+#include <stdint.h>
 
 // Detect target's platform and set some macros in order to wrap platform
 // specific code this library depends on.

@@ -1,6 +1,5 @@
 #include "Compressor.h"
 #include <csignal>
-#include <Windows.h>
 #include <atomic>
 #include <iostream>
 
