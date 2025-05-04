@@ -194,7 +194,18 @@ check_c_source_compiles("#include <sys/ioctl.h>
 int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }" HAVE_FICLONERANGE)
 
 test_big_endian(WORDS_BIGENDIAN)
+set(ZLIB_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/zlib-install")
 
+if(WIN32)
+    set(ZLIB_LIBRARY "${ZLIB_ROOT}/lib/windows/zlibstatic.lib")
+elseif(UNIX)
+    set(ZLIB_LIBRARY "${ZLIB_ROOT}/lib/linux/libz.a")
+endif()
+find_path(ZLIB_INCLUDE_DIR
+    NAMES zlib.h
+    PATHS "${ZLIB_ROOT}/include"
+    REQUIRED
+)
 find_package(ZLIB 1.1.2 REQUIRED)
 # so developers on systems where zlib is named differently (Windows, sometimes)
 # can override the name used in the pkg-config file
