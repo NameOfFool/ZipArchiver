@@ -6,9 +6,6 @@ project(ZipArchiver)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
-#set(ZLIB_USE_STATIC_LIBS ON)
-
 set(ZLIB_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/zlib-install")
 set(LIBZIP_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/libzip-install")
 add_library(zip SHARED IMPORTED)
@@ -38,12 +35,13 @@ find_path(ZLIB_INCLUDE_DIR
 set(LIBZIP_INCLUDE_DIR "${LIBZIP_ROOT}/include" REQUIRED)
 include_directories(${ZLIB_INCLUDE_DIR})
 include_directories(${LIBZIP_INCLUDE_DIR})
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 
 
 
 add_executable("${CMAKE_PROJECT_NAME}"
     src/main.cpp
-)
+ "src/Compressor.cpp")
 if(WIN32)
     add_custom_command(
         TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
