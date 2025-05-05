@@ -17,6 +17,7 @@ int zip_file(const char* file, const char* zipname) {
 		std::cerr << "Failed to create archive:" << err << std::endl;
 		return 1;
 	}
+
 	try {
 		if (!std::filesystem::exists(file)) {
 			throw std::runtime_error("Failed to open file");
@@ -55,6 +56,7 @@ int zip_file(const char* file, const char* zipname) {
 			return 2;
 		}
 	}
+
 	catch (const std::exception& e) {
 		std::cerr << e.what() << std::endl;
 		zip_discard(archive);
@@ -69,11 +71,14 @@ int unzip_file(const char* zipname, const char* filename) {
 	zip_t* archive;
 	int err;
 	archive = zip_open(zipname, ZIP_CREATE, &err);
+
 	std::string outputDir = std::string(zipname).substr(0, std::string(zipname).rfind("."));
+
 	if (archive == NULL) {
 		std::cerr << "Failed to create archive:" << err << std::endl;
 		return 1;
 	}
+
 	try {
 		fs::create_directory(outputDir.c_str());
 
@@ -89,6 +94,7 @@ int unzip_file(const char* zipname, const char* filename) {
 			indicators::option::ShowPercentage{true},
 			indicators::option::ShowElapsedTime{true}
 		};
+
 		std::cout << "Extracting:" << stat.name;
 
 		fs::path outputPath = fs::path(outputDir.c_str()) / stat.name;
