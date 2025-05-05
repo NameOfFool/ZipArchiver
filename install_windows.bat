@@ -8,7 +8,14 @@ set INSTALL_DIR=install
 set GENERATOR="Visual Studio 17 2022"
 set CONFIG=Release                      
 
+:choice
+echo WARNING! IF YOU RUN THIS SCRIPT, YOU WILL DELETE build AND install FOLDERS
+set /P c=Are you sure you want to continue[Y/N]?
+if /I "%c%" EQU "Y" goto :proceed
+if /I "%c%" EQU "N" goto :cancel
+goto :choice
 
+:proceed
 if exist %BUILD_DIR% rmdir /s /q %BUILD_DIR%
 if exist %INSTALL_DIR% rmdir /s /q %INSTALL_DIR%
 
@@ -28,3 +35,9 @@ move .\Release\* ..\%INSTALL_DIR%
 cd ..
 echo Success! Result saved in %INSTALL_DIR%/
 pause
+exit
+
+:cancel
+echo Cancelled
+pause
+exit
