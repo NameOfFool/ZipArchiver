@@ -9,18 +9,18 @@ extern std::atomic<bool> interrupt_flag;
 namespace fs = std::filesystem;
 
 /**
- * Архивирует 1 файл в ZIP-архив.
- * @param file Название файла
- * @param zipname Название архива (example.zip)
- * @return 0 - успех, 1 - ошибка, 2 - прервано пользователем
+ * РђСЂС…РёРІРёСЂСѓРµС‚ 1 С„Р°Р№Р» РІ ZIP-Р°СЂС…РёРІ.
+ * @param file РќР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р°
+ * @param zipname РќР°Р·РІР°РЅРёРµ Р°СЂС…РёРІР° (example.zip)
+ * @return 0 - СѓСЃРїРµС…, 1 - РѕС€РёР±РєР°, 2 - РїСЂРµСЂРІР°РЅРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
  */
 int zip_file(const char* file, const char* zipname);
 
 /**
- * Извлекает 1 файл из ZIP-архив.
- * @param zipname Название архива (example.zip)
- * @param filename Название файла (должен быть в архиве)
- * @return 0 - успех, 1 - ошибка, 2 - прервано пользователем
+ * РР·РІР»РµРєР°РµС‚ 1 С„Р°Р№Р» РёР· ZIP-Р°СЂС…РёРІ.
+ * @param zipname РќР°Р·РІР°РЅРёРµ Р°СЂС…РёРІР° (example.zip)
+ * @param filename РќР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° (РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РІ Р°СЂС…РёРІРµ)
+ * @return 0 - СѓСЃРїРµС…, 1 - РѕС€РёР±РєР°, 2 - РїСЂРµСЂРІР°РЅРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
  */
 int unzip_file(const char* zipname, const char* filename);
 
